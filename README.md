@@ -2,7 +2,7 @@
 
 - Clone `Big_Data_Project` repository
 
-> git clone https://github.com/johanlemesle/Big_Data_Project
+        git clone https://github.com/johanlemesle/Big_Data_Project
 
 - Ensure you have `Vagrant` installed and `kubectl CLI`
 
@@ -10,20 +10,20 @@
 
 - Create your cluster :
 
-> ./create_cluster.sh
+        ./create_cluster.sh
 
 - Verify your cluster :
 
-> ./verify_cluster.sh
+        ./verify_cluster.sh
 
 - Deploy Wordpress :
 
-> ./deploy_wordpress.sh
+        ./deploy_wordpress.sh
 
 - Your Wordpress deployment can be viewed at :
 
-> http://<MASTER_IP>:31234
+        http://<MASTER_IP>:31234
 
 - Destroy your cluster :
 
-> ./destroy_cluster.sh
+        ./destroy_cluster.sh
