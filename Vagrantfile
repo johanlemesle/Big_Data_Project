@@ -1,14 +1,7 @@
-# -*- mode: ruby -*-
-# vi: set ft=ruby :
+server_ip = ENV['SERVER_IP']
 
-server_ip = "192.168.56.10"
-
-agents = { "agent1" => "192.168.56.11",
-           "agent2" => "192.168.56.12" }
-
-# Extra parameters in INSTALL_K3S_EXEC variable because of
-# K3s picking up the wrong interface when starting server and agent
-# https://github.com/alexellis/k3sup/issues/306
+agents = { "agent1" => ENV['AGENT1_IP'],
+           "agent2" => ENV['AGENT2_IP'] }
 
 server_script = <<-SHELL
     sudo -i
