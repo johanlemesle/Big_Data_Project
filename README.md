@@ -1,4 +1,4 @@
-# Deploy Wordpress + Mysql on a 3 nodes master-slave K3S cluster with Vagrant as a provisionner
+# Deploy Wordpress + Mysql on a 3 nodes master-slave K3S cluster with Vagrant (provisionner) on Virtualbox (provider)
 
 - Clone `Big_Data_Project` repository
 
