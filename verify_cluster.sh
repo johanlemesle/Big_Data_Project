@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 KUBECONFIG_PATH="shared/k3s.yaml"
 
