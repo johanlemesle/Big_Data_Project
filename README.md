@@ -31,4 +31,5 @@
  ## Sources
  
  Run Vagrant on WSL2 : https://blog.thenets.org/how-to-run-vagrant-on-wsl-2/
+ 
  Deploying WordPress and MySQL with Persistent Volumes : https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/
