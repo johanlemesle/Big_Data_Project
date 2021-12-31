@@ -1,4 +1,4 @@
-# Deploy Wordpress + Mysql on a 3 nodes master-slave K3S cluster with Vagrant (provisionner) on Virtualbox (provider)
+# Deploy Wordpress + MySQL on a 3 nodes master-slave K3S cluster with Vagrant (provisionner) on Virtualbox (provider)
 
 - Clone `Big_Data_Project` repository
 
@@ -27,3 +27,8 @@
 - Destroy your cluster :
 
         ./destroy_cluster.sh
+        
+ ## Sources
+ 
+ Run Vagrant on WSL2 : https://blog.thenets.org/how-to-run-vagrant-on-wsl-2/
+ Deploying WordPress and MySQL with Persistent Volumes : https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/
