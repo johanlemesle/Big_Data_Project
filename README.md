@@ -1,5 +1,7 @@
 # Deploy Wordpress + MySQL on a 3 nodes master-slave K3S cluster with Vagrant (provisionner) on Virtualbox (provider)
 
+## ING5 APP SI02 : GEORGE Louis / LAHDIRI Redoine / LEMESLE Johan
+
 - Clone `Big_Data_Project` repository
 
         git clone https://github.com/johanlemesle/Big_Data_Project
@@ -28,7 +30,7 @@
 
         ./destroy_cluster.sh
         
- ## Sources
+ ### Sources
  
  Run Vagrant on WSL2 : https://blog.thenets.org/how-to-run-vagrant-on-wsl-2/
  
